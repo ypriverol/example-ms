@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -D CMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/8.2.0/bin/g++-8 -G "CodeBlocks - Unix Makefiles" /Users/yperez/work/github/msCRUSH
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/yperez/work/github/msCRUSH/cmake-build-debug

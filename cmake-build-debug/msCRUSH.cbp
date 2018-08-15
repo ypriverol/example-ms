@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="msCRUSH"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yperez/work/github/msCRUSH/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yperez/work/github/msCRUSH/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yperez/work/github/msCRUSH/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msCRUSH">
+				<Option output="/Users/yperez/work/github/msCRUSH/cmake-build-debug/msCRUSH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yperez/work/github/msCRUSH/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yperez/work/github/msCRUSH/src/app"/>
+					<Add directory="/Users/yperez/work/github/msCRUSH/src/class"/>
+					<Add directory="/Users/yperez/work/github/msCRUSH/src/test"/>
+					<Add directory="/Users/yperez/work/github/msCRUSH/src/utility"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin17.7.0/8.2.0/../../../../../../include/c++/8.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin17.7.0/8.2.0/../../../../../../include/c++/8.2.0/x86_64-apple-darwin17.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin17.7.0/8.2.0/../../../../../../include/c++/8.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin17.7.0/8.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin17.7.0/8.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 msCRUSH"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msCRUSH/fast">
+				<Option output="/Users/yperez/work/github/msCRUSH/cmake-build-debug/msCRUSH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yperez/work/github/msCRUSH/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yperez/work/github/msCRUSH/src/app"/>
+					<Add directory="/Users/yperez/work/github/msCRUSH/src/class"/>
+					<Add directory="/Users/yperez/work/github/msCRUSH/src/test"/>
+					<Add directory="/Users/yperez/work/github/msCRUSH/src/utility"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin17.7.0/8.2.0/../../../../../../include/c++/8.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin17.7.0/8.2.0/../../../../../../include/c++/8.2.0/x86_64-apple-darwin17.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin17.7.0/8.2.0/../../../../../../include/c++/8.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin17.7.0/8.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin17.7.0/8.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 msCRUSH/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yperez/work/github/msCRUSH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yperez/work/github/msCRUSH/src/app/greedyCluster_omp_general_charge.cc">
+			<Option target="msCRUSH"/>
+		</Unit>
+		<Unit filename="/Users/yperez/work/github/msCRUSH/src/class/core.cc">
+			<Option target="msCRUSH"/>
+		</Unit>
+		<Unit filename="/Users/yperez/work/github/msCRUSH/src/class/core.h">
+			<Option target="msCRUSH"/>
+		</Unit>
+		<Unit filename="/Users/yperez/work/github/msCRUSH/src/class/distance.cc">
+			<Option target="msCRUSH"/>
+		</Unit>
+		<Unit filename="/Users/yperez/work/github/msCRUSH/src/class/distance.h">
+			<Option target="msCRUSH"/>
+		</Unit>
+		<Unit filename="/Users/yperez/work/github/msCRUSH/src/class/params.h">
+			<Option target="msCRUSH"/>
+		</Unit>
+		<Unit filename="/Users/yperez/work/github/msCRUSH/src/class/peak.h">
+			<Option target="msCRUSH"/>
+		</Unit>
+		<Unit filename="/Users/yperez/work/github/msCRUSH/src/class/spectrum.h">
+			<Option target="msCRUSH"/>
+		</Unit>
+		<Unit filename="/Users/yperez/work/github/msCRUSH/src/utility/io.cc">
+			<Option target="msCRUSH"/>
+		</Unit>
+		<Unit filename="/Users/yperez/work/github/msCRUSH/src/utility/io.h">
+			<Option target="msCRUSH"/>
+		</Unit>
+		<Unit filename="/Users/yperez/work/github/msCRUSH/src/utility/params.h">
+			<Option target="msCRUSH"/>
+		</Unit>
+		<Unit filename="/Users/yperez/work/github/msCRUSH/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

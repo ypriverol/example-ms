@@ -1,0 +1,1 @@
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/msCRUSH.dir/src/app/greedyCluster_omp_general_charge.cc.o CMakeFiles/msCRUSH.dir/src/class/core.cc.o CMakeFiles/msCRUSH.dir/src/class/distance.cc.o CMakeFiles/msCRUSH.dir/src/utility/io.cc.o  -o msCRUSH 
